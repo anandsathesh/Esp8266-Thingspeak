@@ -62,3 +62,18 @@ Install these libraries in **Arduino IDE** or **PlatformIO**:
    const char* password = "YOUR_PASSWORD";
    unsigned long channelID = YOUR_CHANNEL_ID;   // Numeric
    const char* apiKey   = "YOUR_WRITE_API_KEY";
+
+   Select Board & Port
+
+Tools → Board → “NodeMCU 1.0 (ESP‑12E)” (or your variant)
+
+Tools → Port → COM‑port shown.
+
+Compile & Upload.
+The Serial Monitor (115200 baud) should show connection progress and sensor values.
+
+ThingSpeak Dashboard
+Log in to ThingSpeak → Channels → My Channels → New Channel.
+Enable Field 1 (Temperature °C), Field 2 (Humidity %), Field 3 (Gas Value).
+Copy the Channel ID and Write API Key into the sketch.
+Charts appear automatically after data starts flowing.
