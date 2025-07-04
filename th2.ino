@@ -8,10 +8,10 @@ DHT dht(DHTPIN, DHTTYPE);
 
 const int MQ2_PIN = A0;  // MQ2 Gas Sensor analog pin
 
-const char* ssid = "sai";
-const char* password = "12345678";
-unsigned long channelID = 2891146;
-const char* apiKey = "516VAT80RND30ROQ";
+const char* ssid = "your ssid";
+const char* password = "your password";
+unsigned long channelID =  fill your id;
+const char* apiKey = "fill your key";
 
 WiFiClient client;
 
